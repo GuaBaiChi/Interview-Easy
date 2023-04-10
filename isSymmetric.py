@@ -30,6 +30,13 @@ class Solution:
 
 # Driver Code
 # Let's construct the tree show in the above figure
+# a
+# [1, 2, 2, 3, 4, 4, 3]
+# b
+# [1, 2, 2, null, 3, null, 3]
+# this will actually be produced as
+# [1, 2, 2, 3, 3]
+
 root = TreeNode(1)
 root.left = TreeNode(2)
 root.right = TreeNode(2)

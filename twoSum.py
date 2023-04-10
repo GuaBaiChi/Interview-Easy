@@ -17,6 +17,7 @@ testing = solution.twoSum(nums, target)
 print(testing)
 
 
+# https://www.youtube.com/watch?v=xZFoZvhnVTU
 # class Solution:
 #     def twoSum(self, nums: list[int], target: int) -> list[int]:
 #         seen = {}
@@ -27,6 +28,8 @@ print(testing)
 #             elif num not in seen:
 #                 seen[num] = i
 
+# for dictionaries, i is the index, and num is the number/value/key
+# the elif stores the i/num into the dictionary
 
 # Dictionaries are key-value pairs. In this example,
 # key = The number/element value
@@ -35,6 +38,7 @@ print(testing)
 # What this is doing is enumerating each element of the nums list. If the element has not yet been seen, it is added to the seen dictionary as a key, the value being its index.
 
 # The real trick is if target - num in seen. That means,
+
 # "If the difference between target and num is in the seen dictionary, then we have already SEEN another element such that seen_element + num = target. That solves the problem.
 # It's a pretty clever trick that works better than the nested loop
 # In other words, that algorithm does this

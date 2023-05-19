@@ -13,7 +13,8 @@ class TreeNode:
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         # if not root:
-        if self == None:
+        # if self == None:
+        if root == None:
             return True
         return self.isSame(root.left, root.right)
 

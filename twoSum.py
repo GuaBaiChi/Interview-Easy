@@ -10,6 +10,7 @@ class Solution:
                     return [i, j]
 
 
+# driver code
 solution = Solution()
 nums = [2, 7, 11, 15]
 target = 9
